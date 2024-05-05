@@ -13,7 +13,7 @@ module.exports = {
       ref: DEPLOY_REF,
       repo: DEPLOY_REP,
       path: DEPLOY_PATH,
-      'post-deploy': 'cd frontend && pwd && npm ci && npm run build',
+      "post-deploy": `cd ~/web-plus-pm2-deploy-frontend/current/frontend/ && source ~/.nvm/nvm.sh && nvm use 20.12.2 && npm i && npm run build`,
     },
   },
 }

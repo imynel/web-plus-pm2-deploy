@@ -139,6 +139,6 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('https://api.rublevo.imynel.nomoredomainswork.ru/');
+  const api = new Api('https://api.rublevo.imynel.nomoredomainswork.ru');
 
   export default api;

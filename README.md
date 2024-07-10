@@ -2,7 +2,7 @@
 
 Стартеркит проекта по автоматизации деплоя фронтенда и бэкенда при помощи pm2 (pm2 deploy)
 
-IP адрес 51.250.5.203
+IP адрес 62.84.118.63
 
 Frontend https://rublevo.imynel.nomoredomainswork.ru
 
